@@ -12,6 +12,8 @@ let input_reg = document.createElement("input");
 label_log.innerText = "login";
 label_pass.innerText = "Password";
 
+
+
 input_log.setAttribute("type","text");
 input_log.setAttribute("name","login");
 input_pass.setAttribute("type","password");
@@ -66,6 +68,13 @@ input_signin.style.fontSize = "22px";
 input_signin.style.padding = "5px";
 input_signin.style.color = "#2a84a7";
 input_signin.style.border = "none";
+input_signin.style.borderRadius = "5px";
+input_reg.style.width = "35%";
+input_reg.style.fontSize = "22px";
+input_reg.style.padding = "5px";
+input_reg.style.color = "#2a84a7";
+input_reg.style.border = "none";
+input_reg.style.borderRadius = "5px";
 input_signin.style.borderRadius = "5px";
 input_reg.style.width = "35%";
 input_reg.style.fontSize = "22px";
